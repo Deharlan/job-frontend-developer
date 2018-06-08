@@ -1,0 +1,14 @@
+<section id="artistList">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 artist" *ngFor="let artist of artists" (click)="this.goToArtist(artist.name)">
+        <div class="name">
+          {{ this.artist.name }}
+        </div>
+        <div class="genre colored">
+          {{ this.artist.classifications[0].genre.name }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

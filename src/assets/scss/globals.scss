@@ -1,0 +1,35 @@
+html, body, app-root, #site {
+    // min-height: 100vh;
+    // min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+input, textarea, select, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#site {
+    position: relative;
+    min-height: 100vh;
+
+    background: rgba(29, 24, 53, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(29, 24, 53, 1) 0%, rgba(29, 24, 53, 1) 51%, rgba(11, 9, 27, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(29, 24, 53, 1)), color-stop(51%, rgba(29, 24, 53, 1)), color-stop(100%, rgba(11, 9, 27, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(29, 24, 53, 1) 0%, rgba(29, 24, 53, 1) 51%, rgba(11, 9, 27, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(29, 24, 53, 1) 0%, rgba(29, 24, 53, 1) 51%, rgba(11, 9, 27, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(29, 24, 53, 1) 0%, rgba(29, 24, 53, 1) 51%, rgba(11, 9, 27, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(29, 24, 53, 1) 0%, rgba(29, 24, 53, 1) 51%, rgba(11, 9, 27, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1835', endColorstr='#0b091b', GradientType=1);
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.colored {
+    color: $colored;
+}

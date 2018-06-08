@@ -1,0 +1,13 @@
+<div id="searchForm">
+    <div class="form-container container">
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group search-group">
+                    <input [(ngModel)]="artist" (ngModelChange)="onChange($event)" type="text" id="search-artist" class="form-control search-control" required>
+                    <label for="search-artist" class="search-label">Encontre seu <span class="colored">Artista</span></label>
+                    <button class="search-button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

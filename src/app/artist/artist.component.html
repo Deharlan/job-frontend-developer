@@ -1,0 +1,22 @@
+<div id="artist">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="name">{{ this.artist.name }}</div>
+        <div class="genre">{{ this.artist.classifications[0].genre.name }}</div>
+        <div class="videos">
+          <div class="title">Vídeos:</div>
+          <div class="youtube-player">
+            <iframe id="ytplayer" type="text/html" width="720" height="405" [src]="this.safeUrl" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="images">
+          <div class="title">Imagens:</div>
+          <div class="image">
+            <img src="{{ this.artist.images[4].url }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
+
+@import 'assets/scss/variables';
+@import 'assets/scss/globals';
+@import 'assets/scss/home';
+@import 'assets/scss/circles';
+
+$grid-gutter: 40px;

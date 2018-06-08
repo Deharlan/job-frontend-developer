@@ -1,0 +1,34 @@
+<section id="logo" class="text-center">
+    <div class="bg circles">
+        <div class="bg-circles">
+            <div class="circle bg-circles-one circle-color"></div>
+            <div class="circle bg-circles-two circle-color-30"></div>
+            <div class="circle bg-circles-three circle-color-10"></div>
+        </div>
+        <div class="image">
+            <a href="#">
+                <img src="./assets/img/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+<section id="audio">
+    <div class="bg">
+        <div class="content">
+            <audio #audio autoplay src="{{ music.music }}"></audio>
+            <div class="left">
+                <a class="play-button" (click)="playPause()">
+                    <img src="./assets/img/music-player-play.png" alt="">
+                </a>
+            </div>
+            <div class="right section-container">
+                <div class="subtitle audio-subtitle">
+                    Playing now
+                </div>
+                <div class="title audio-name">
+                    {{ music.name }} - {{ music.artist }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

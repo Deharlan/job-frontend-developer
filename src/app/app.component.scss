@@ -1,0 +1,31 @@
+#site {
+  &.home {
+    .page {
+      animation: searchOpen 8s ease;
+    }
+    app-footer {
+      #logo-m {
+        transform: scale(1);
+      }
+    }
+  }
+  app-footer {
+    #logo-m {
+      transition: 2.4s all;
+      transform: scale(0.2);
+    }
+  }
+}
+
+@keyframes searchOpen {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.05;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

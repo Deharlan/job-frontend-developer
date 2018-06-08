@@ -1,0 +1,317 @@
+#logo-m {
+    padding-top: 120px;
+    height: 700px;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    .circles {
+        // position: absolute;
+        // top: 0;
+        // left: 50%;
+        .bg-circles {
+            position: absolute;
+            bottom: 30%;
+            left: 50%;
+            height: 1px;
+            width: 1px; // background: #000;
+            z-index: 1000; // animation: circles 8s ease none infinite;
+            .bg-circles-four {
+                position: absolute;
+                top: -250px;
+                left: -250px;
+                height: 500px;
+                width: 500px;
+                z-index: 900;
+                border-radius: 100%;
+                animation: 3s circle-four ease;
+                animation-iteration-count: infinite;
+            }
+            .bg-circles-five {
+                position: absolute;
+                top: -125px;
+                left: -125px;
+                height: 250px;
+                width: 250px;
+                z-index: 800;
+                border-radius: 100%;
+                animation: 3s circle-five ease;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+            }
+            .bg-circles-six {
+                position: absolute;
+                top: -180px;
+                left: -180px;
+                height: 360px;
+                width: 360px;
+                z-index: 600;
+                border-radius: 100%;
+                animation: 3s circle-six ease;
+                animation-iteration-count: infinite; // animation-direction: alternate;
+                animation-direction: alternate-reverse;
+                
+            }
+            .bg-circles-seven {
+                position: absolute;
+                top: -180px;
+                left: -180px;
+                height: 360px;
+                width: 360px;
+                z-index: 600;
+                border-radius: 100%;
+                animation: 3s circle-seven ease;
+                animation-iteration-count: infinite; // animation-direction: alternate;
+            }
+            
+        }
+    }
+    .image {
+
+        a {
+            display: block;
+            position: absolute;
+            z-index: 1100;
+            top: -75px;
+            left: -75px;
+            height: 150px;
+            width: 150px;
+            background: #fff;
+            box-shadow: 0px 0px 60px 0px rgba(69, 69, 69, 0.13);
+            border-radius: 100%;
+            line-height: 190px;
+            animation: 12s logo-m ease-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+
+        img {
+            animation: 6s logo-m ease-out;
+            animation-iteration-count: infinite;
+        }
+    }
+    img {
+        max-width: 70vw;
+    }
+}
+
+@keyframes logo-m {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(0.8);
+    }
+    20% {
+        transform: scale(1.2);
+    }
+    30% {
+        transform: scale(0.8);
+    }
+    40% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    70% {
+        transform: scale(0.8);
+    }
+    80% {
+        transform: scale(1.2);
+    }
+    90% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes circle-four {
+    0% {
+        top: -200px;
+        left: -200px;
+        height: 400px;
+        width: 400px;
+    }
+    30% {
+        top: -250px;
+        left: -250px;
+        height: 500px;
+        width: 500px;
+    }
+    50% {
+        top: -200px;
+        left: -200px;
+        height: 400px;
+        width: 400px;
+        
+    }
+    60% {
+        top: -250px;
+        left: -250px;
+        height: 500px;
+        width: 500px;
+    }
+    70% {
+        top: -200px;
+        left: -200px;
+        height: 400px;
+        width: 400px;
+        
+    }
+    80% {
+        top: -250px;
+        left: -250px;
+        height: 500px;
+        width: 500px;
+    }
+    100% {
+        top: -200px;
+        left: -200px;
+        height: 400px;
+        width: 400px;
+        
+    }
+}
+
+@keyframes circle-five {
+    0% {
+        height: 550px;
+        width: 550px;
+        top: -275px;
+        left: -275px;
+    }
+    30% {
+        height: 650px;
+        width: 650px;
+        top: -325px;
+        left: -325px;
+    }
+    50% {
+        height: 550px;
+        width: 550px;
+        top: -275px;
+        left: -275px;
+    }
+    60% {
+        height: 650px;
+        width: 650px;
+        top: -325px;
+        left: -325px;
+    }
+    70% {
+        height: 550px;
+        width: 550px;
+        top: -275px;
+        left: -275px;
+    }
+    80% {
+        height: 650px;
+        width: 650px;
+        top: -325px;
+        left: -325px;
+    }
+    100% {
+        height: 550px;
+        width: 550px;
+        top: -275px;
+        left: -275px;
+    }
+}
+
+@keyframes circle-six {
+    0% {
+        height: 700px;
+        width: 700px;
+        top: -350px;
+        left: -350px;
+    }
+    30% {
+        height: 800px;
+        width: 800px;
+        top: -400px;
+        left: -400px;
+    }
+    50% {
+        height: 700px;
+        width: 700px;
+        top: -350px;
+        left: -350px;
+    }
+    60% {
+        height: 800px;
+        width: 800px;
+        top: -400px;
+        left: -400px;
+    }
+    70% {
+        height: 700px;
+        width: 700px;
+        top: -350px;
+        left: -350px;
+    }
+    80% {
+        height: 800px;
+        width: 800px;
+        top: -400px;
+        left: -400px;
+    }
+    100% {
+        height: 700px;
+        width: 700px;
+        top: -350px;
+        left: -350px;
+    }
+}
+@keyframes circle-seven {
+    0% {
+        height: 850px;
+        width: 850px;
+        top: -425px;
+        left: -425px;
+    }
+    30% {
+        height: 950px;
+        width: 950px;
+        top: -475px;
+        left: -475px;
+    }
+    50% {
+        height: 850px;
+        width: 850px;
+        top: -425px;
+        left: -425px;
+    }
+    60% {
+        height: 950px;
+        width: 950px;
+        top: -475px;
+        left: -475px;
+    }
+    70% {
+        height: 850px;
+        width: 850px;
+        top: -425px;
+        left: -425px;
+    }
+    80% {
+        height: 950px;
+        width: 950px;
+        top: -475px;
+        left: -475px;
+    }
+    100% {
+        height: 850px;
+        width: 850px;
+        top: -425px;
+        left: -425px;
+    }
+}
+
